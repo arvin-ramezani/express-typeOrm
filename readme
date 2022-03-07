@@ -1,0 +1,5 @@
+start: This is to tell how we want to start our server in production mode, the compiled javascript will be in the dist folder and we are telling node to run our javascript file from there
+
+start:dev: This is how we start our development server, by default, nodemon will look for a file called nodemon.json to run whenever this command is called. We’ll create that in the next step
+
+build: this is how we build or transpile our TypeScript code into JavaScript using the tsc command, which we get as a result of installing the typescript dependency.
